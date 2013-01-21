@@ -4,6 +4,10 @@ Character::Character(){
 
 }
 
+Character::~Character(){
+
+}
+
 int Character::getScene(){
 	return scene;
 }
