@@ -1,15 +1,15 @@
 ////////////////////////////////////////////////////////////////////////////////
 // Filename: AbstractFactory.h
 ////////////////////////////////////////////////////////////////////////////////
-#ifndef _POSITIONCLASS_H_
-#define _POSITIONCLASS_H_
+#ifndef _AbFactCLASS_H_
+#define _AbFactCLASS_H_
 
 
 //////////////
 // INCLUDES //
 //////////////
 #include <iostream>
-#include "Character.h"
+#include "Vehicle.h"
 using namespace std;
 
 
@@ -22,8 +22,8 @@ public:
 	AbstractFactory();
 	AbstractFactory(const AbstractFactory&);
 	virtual ~AbstractFactory();
-	virtual Character* CreatePlayer()=0;
-    virtual Character* CreateOpponents()=0;
+	virtual Vehicle* CreatePlayer()=0;
+    virtual Vehicle* CreateOpponents()=0;
 
 	
 
